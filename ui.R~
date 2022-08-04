@@ -1,0 +1,17 @@
+options(browser="chromium")
+library(shiny)
+library(shinythemes)
+library(dplyr)
+library(readr)
+library(shinydashboard)
+
+
+library(data.table)
+library(ggplot2)
+
+fread("/home/pawan/procurement/previous_procurement.csv")->t1
+
+ui <- fluidPage(
+  h2("Procurement Data"),
+  DT::dataTableOutput("t1")
+)

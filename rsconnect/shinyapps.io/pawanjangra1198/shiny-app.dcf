@@ -1,0 +1,14 @@
+name: shiny-app
+title: shiny-app
+username:
+account: pawanjangra1198
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 6088634
+bundleId: 5797150
+url: https://pawanjangra1198.shinyapps.io/shiny-app/
+when: 1649913854.60586
+lastSyncTime: 1649913854.60587
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: paddy-shiny.R

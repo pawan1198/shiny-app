@@ -1,0 +1,8 @@
+
+server <- function(input, output) {
+  output$t1 = DT::renderDataTable({
+    t1
+  })
+}
+
+shinyApp(ui, server)
